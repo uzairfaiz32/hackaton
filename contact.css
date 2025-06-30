@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'KyivType Sans';
+}
+.navbar .logo{
+    padding: 10px 10px;
+}
+.navbar{
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 30px;
+}
+.navlist ul{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    list-style: none;
+}
+.navlist ul li a{
+    /* padding-right: 30px; */
+    /* padding: 0px 30px; */
+    font-size: 18px;
+   text-decoration: none;  
+   color: #ffff;  
+}
+.navlist ul li a:hover{
+    color: #9c5d0a ;
+    transition: 0.3s;
+}
+.main-container{
+    background-color:#202020;
+    width: 100%;
+    height: 1100px;
+}
+.main{
+    /* width: 908px; */
+    height: auto;
+    background-color: #1E0C06;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 200px 220px;
+}
+.content h1{
+    font-size: 80px;
+    color: #ffff
+}
+.content p{
+    font-size: 20px;
+    color: #ffff
+}
+
+    .call{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0px  50px;
+    }
+    .call .tasveer img{
+        padding: 10px 10px;
+    }
+    .tasveer p{
+        padding: 10px 10px;
+        font-size: 24px;
+        color: #ffff;
+    }
+    .phone{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: ; */
+    }
+
+    .phone p{
+        font-size: 24px;
+        color: #ffff;
+        padding: 10px 10px;
+    }
+       .zong p{
+        font-size: 24px;
+        color: #ffff;
+        padding: 10px 10px;
+    }

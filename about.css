@@ -19,6 +19,7 @@
 .navlist ul{
     display: flex;
     flex-direction: row;
+    gap: 45px;
     list-style: none;
 }
 .navlist ul li a{
